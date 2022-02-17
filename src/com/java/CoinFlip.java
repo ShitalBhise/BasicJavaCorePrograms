@@ -25,6 +25,7 @@ public class CoinFlip {
 				numberOfTimes++;
 			}
 		}
+
 		double headCountPercentage = (double) ((headCount / CoinFlipNumber) * 100);
 		System.out.println("headCountPercentage= " + headCountPercentage);
 		double tailCountPercentage = (double) ((tailCount / CoinFlipNumber) * 100);
